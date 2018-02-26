@@ -1,0 +1,15 @@
+.footer {
+    font-size: 12px;
+    margin-top: 100px;
+    font-family: monospace;
+}
+#clenched {
+    display: inline;
+    border: 6px dashed #000000;
+    margin-left: 300px
+}
+#legacy {
+    display: block;
+    border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+}

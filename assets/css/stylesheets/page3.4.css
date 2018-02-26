@@ -1,0 +1,54 @@
+.footer {
+    font-size: 12px;
+    margin-top: 100px;
+    font-family: monospace;
+}
+#betrothal {
+    border-radius: 5px;
+  display: inline;
+  margin: 0;
+    border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+}
+#whose {
+    border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+    border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+}
+#veil {
+    border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+    border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+}
+#like {
+    border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+    border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+}
+#totter {
+    border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+    border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+}
+#fall {
+    border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+    border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+}
+#madness {
+    border-radius: 5px;
+  display: block;
+  margin: 0;
+    border: 30px double red;
+  padding: 10px 30px;
+}
