@@ -1,0 +1,87 @@
+.footer {
+    font-size: 12px;
+    margin-top: 100px;
+    font-family: monospace;
+}
+#one {
+    float: right;
+    font-family: monospace;
+    font-size: 20px;
+    color: saddlebrown;
+    
+}
+#two {
+    float: left;
+    font-family: monospace;
+    font-size: 20px;
+    color: saddlebrown;
+    
+}
+#three {
+    float: right;
+    font-family: monospace;
+    font-size: 20px;
+    color: saddlebrown;
+}
+#four {
+  float: left;
+    font-family: monospace;
+    font-size: 20px;
+    color: saddlebrown;  
+}
+#five {
+    float: right;
+    font-family: monospace;
+    font-size: 20px;
+    color: saddlebrown;
+}
+#nothing {
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+    letter-spacing: 20px;
+    color: darkgray;
+}
+#seven {
+    float: right;
+    font-family: monospace;
+    font-size: 20px;
+    color: saddlebrown;
+}
+#eight {
+    float: left;
+    font-family: monospace;
+    font-size: 20px;
+    color: saddlebrown;
+}
+#nine {
+    float: right;
+    font-family: monospace;
+    font-size: 20px;
+    color: saddlebrown;
+}
+#ten {
+    float: left;
+    font-family: monospace;
+    font-size: 20px;
+    color: saddlebrown;
+}
+#human {
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+    letter-spacing: 20px;
+    color: tan;
+}
+#twelve {
+    float: right;
+    font-family: monospace;
+    font-size: 20px;
+    color: saddlebrown;
+}
+#thirteen {
+    float: left;
+    font-family: monospace;
+    font-size: 20px;
+    color: saddlebrown;
+}

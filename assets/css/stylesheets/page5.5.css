@@ -1,0 +1,56 @@
+.footer {
+    font-size: 12px;
+    margin-top: 100px;
+    font-family: monospace;
+}
+.one {
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 10%;
+    font-size: 10px;
+    font-family: monospace;
+    color:darkcyan;
+    
+}
+.two {
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 10%;
+    font-size: 20px;
+    font-family: monospace;
+    color:darkcyan;
+}
+.three {
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 10%;
+    font-size: 30px;
+    font-family: monospace;
+    color:darkcyan;
+    float: right
+}
+.four {
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 10%;
+    font-size: 40px;
+    font-family: monospace;
+    color:darkcyan;
+}
+.five{
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 60px;
+    font-family: monospace;
+    color:cyan;
+}
