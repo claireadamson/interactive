@@ -1,0 +1,16 @@
+
+section {
+  float: left;
+  margin: 0 10%;
+  width: 30%;
+    font-size: 55px;
+    font-family: monospace;
+    padding: 30px;
+    border: 2px dotted #000000
+}
+.footer {
+    font-size: 12px;
+    margin-top: 100px;
+    font-family: monospace;
+    display: inline-block;
+}

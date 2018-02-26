@@ -1,0 +1,55 @@
+.footer {
+    font-size: 12px;
+    font-family: monospace;
+    width: 60%;
+    object-position: bottom;
+    
+    
+}
+.one {
+    text-align: center;
+    align-content: center;
+    margin-right: 40px;
+    margin-left: 500px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 40px;
+    width: 40%;
+    font-family: monospace;
+    font-size: 60px
+    
+}
+.two {
+    float: right;
+    text-align: right;
+    margin-right: 40px;
+    margin-left: 0;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 40px;
+    width: 30%;
+    font-family: sans-serif;
+    font-size: 60px;
+}
+.three {
+    float: left;
+    text-align: left;
+    margin-right: 40px;
+    margin-left: 0;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding: 40px;
+    width: 30%;
+    font-family: cursive;
+    font-size: 30px;
+}
+.four {
+    float: right;
+    margin-right: 300px;
+    margin-left: 0;
+    margin-top: 400px;
+    margin-bottom: 100px;
+    padding: 40px;
+    width: 5%;
+    font-size: 8px;
+}

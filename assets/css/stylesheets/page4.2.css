@@ -1,0 +1,27 @@
+.footer {
+    font-size: 12px;
+    margin-top: 100px;
+    font-family: monospace;
+}
+.bigstuff {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 75px;
+    letter-spacing: 25px;
+}
+#one {
+    color: #6f0000
+}
+#two {
+    color: #9c0c0c
+}
+#three {
+    color: #e03939
+}
+#four {
+    color: #fb9494
+}
+#five {
+    color: #fec5c5
+}
