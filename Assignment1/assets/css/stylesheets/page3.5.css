@@ -1,5 +1,5 @@
 @font-face{
-    font-family: PlanetaBold;
+    font-family: Planeta-Bold;
     src: url(../fonts/Planeta-Bold.otf);
 }
 
@@ -12,8 +12,7 @@ header {
     border: 5px double #000000;
     padding: 30px;
     margin: 30px;
-    font: 12px PlanetaBold, monospace;
-    
+    font: 25px/15px Planeta-Bold, serif, monospace; 
 }
 section {
   float: left;
