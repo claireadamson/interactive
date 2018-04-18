@@ -1,0 +1,200 @@
+/*
+
+CSS DRAWINGS s2018
+
+* * * * * * * * * * * * * * * * * *
+
+Full CSS Reset
+
+http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/*
+  ========================================
+  Box model reset
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+.canvas {
+    display: block;
+    position: relative;
+    background-color: rgb(240,240,240);
+    border: solid 20px rgb(245,245,245);
+    box-shadow: 15px 15px 25px rgba(230, 222, 159, 0.78);
+    margin: 60px auto;
+    padding: 20px;
+    width: 900px;
+    height: 600px;
+}
+
+/*
+  ========================================
+  General
+  ========================================
+*/
+
+body{
+    background-color: rgb(255, 248, 224);
+}
+#circle {
+    width: 200px;
+    height: 200px;
+    background: black;
+    display:block;
+    position: absolute;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 300px;
+    margin-left: 130px;
+    margin-top: 150px;
+}
+#circle2 {
+    width: 200px;
+    height: 200px;
+    background: black;
+    position: absolute;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 300px;
+    margin-left: 375px;
+    margin-top: 150px;
+}
+#circle3 {
+    width: 150px;
+    height: 150px;
+    background: rgb(240,240,240);
+    position: absolute;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 300px;
+    margin-left: 155px;
+    margin-top: 175px;
+}
+#circle4 {
+    width: 150px;
+    height: 150px;
+    background: rgb(240,240,240);
+    display:block;
+    position: absolute;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 300px;
+    margin-left: 400px;
+    margin-top: 175px;
+}
+#rectangle {
+    width: 90px;
+    height: 20px;
+    position: absolute;
+    background: black;
+    margin-left: 310px;
+    margin-top: 235px;
+}
+#circle5 {
+    width: 80px;
+    height: 80px;
+    background: white;
+    display:block;
+    position: absolute;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 300px;
+    margin-left: 190px;
+    margin-top: 210px;
+}
+#circle6 {
+    width: 80px;
+    height: 80px;
+    background: white;
+    display:block;
+    position: absolute;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 300px;
+    margin-left: 435px;
+    margin-top: 210px;
+}
+#circle7 {
+    width: 30px;
+    height: 30px;
+    background: #bad3d6;
+    display:block;
+    position: absolute;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 300px;
+    margin-left: 190px;
+    margin-top: 210px;
+}
+#circle8 {
+    width: 30px;
+    height: 30px;
+    background: #4c3e11;
+    display:block;
+    position: absolute;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 300px;
+    margin-left: 490px;
+    margin-top: 230px;
+}
