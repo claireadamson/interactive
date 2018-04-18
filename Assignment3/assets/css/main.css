@@ -1,0 +1,371 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*////// Larger screens /////*/
+
+/*////////////////////////////////// Door One //////////////////////////////////////////////*/
+
+.opening-door1, .opening-door1 :before, .opening-door1 :after {
+    box-sizing: border-box;
+}
+.opening-door1:after {
+    content: ' ';
+    border: 1px solid #333;
+    background: #edf4ff;
+    position: absolute;
+    top: 12px; 
+    left: 12px;
+    right: 12px;
+    bottom: 0;
+}
+.opening-door1.frame1 {
+    background: #d3d3d3;
+    width: 154px; 
+    height: 288px;
+    padding: 13px 13px 0px 13px;
+    perspective: 275px;
+    perspective-origin: 0;
+    cursor: pointer;
+}
+
+.opening-door1 .door1 {
+    width: 100%;
+    height: 100%;
+    background: #e8e8e8; /* default */
+    transition: all 0.4s ease-in-out;
+    transform-origin: center left;
+    position: relative;
+    z-index: 2;
+    font-size: 100px;
+    text-align: center;
+    font-family: Helvetica;
+    color: #d3d3d3;
+}
+.opening-door1:hover .door1 {
+    transform: rotateY(35deg);
+    transform-origin: center left;
+}
+.opening-door1 .door1:after {
+    content: ' ';
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s ease-in-out;
+}
+.opening-door1:hover .door1:after {
+    opacity: 1;
+}
+
+.opening-door1 .handle1 {
+    width: 16px;
+    height: 6px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    position: absolute;
+    background: #e8e8e8;
+    top: 50%;
+    right: 15%;
+}
+.opening-door1 .handle1:after {
+    content: ' ';
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    border: 1px solid #333;
+    background: #e8e8e8;
+    position: absolute;
+    top: -6px;
+    right: -4px;
+    transition: all 0.4s ease-in-out;
+}
+.opening-door1:hover .handle1:after {
+    width: 24px;
+    right: -15px;
+}
+
+/*//////////////////////////////////// Door Two /////////////////////////////////////////////*/
+
+
+.opening-door2, .opening-door2 :before, .opening-door2 :after {
+    box-sizing: border-box;
+}
+.opening-door2:after {
+    content: ' ';
+    border: 1px solid #333;
+    background: #fcffed;
+    position: absolute;
+    top: 12px; 
+    left: 12px;
+    right: 12px;
+    bottom: 0;
+}
+.opening-door2.frame2 {
+    background: #d3d3d3;
+    width: 154px; 
+    height: 288px;
+    padding: 13px 13px 0px 13px;
+    perspective: 275px;
+    perspective-origin: 0;
+    cursor: pointer;
+}
+
+.opening-door2 .door2 {
+    width: 100%;
+    height: 100%;
+    background: #e8e8e8; /* default */
+    transition: all 0.4s ease-in-out;
+    transform-origin: center left;
+    position: relative;
+    z-index: 2;
+    font-size: 100px;
+    text-align: center;
+    font-family: Helvetica;
+    color: #d3d3d3;
+}
+.opening-door2:hover .door2 {
+    transform: rotateY(35deg);
+    transform-origin: center left;
+}
+.opening-door2 .door2:after {
+    content: ' ';
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s ease-in-out;
+}
+.opening-door2:hover .door2:after {
+    opacity: 1;
+}
+
+.opening-door2 .handle2 {
+    width: 16px;
+    height: 6px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    position: absolute;
+    background: #e8e8e8;
+    top: 50%;
+    right: 15%;
+}
+.opening-door2 .handle2:after {
+    content: ' ';
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    border: 1px solid #333;
+    background: #e8e8e8;
+    position: absolute;
+    top: -6px;
+    right: -4px;
+    transition: all 0.4s ease-in-out;
+}
+.opening-door2:hover .handle2:after {
+    width: 24px;
+    right: -15px;
+}
+
+/*/////////////////////////////////////// Door Three /////////////////////////////////////////*/
+.opening-door3, .opening-door3 :before, .opening-door3 :after {
+    box-sizing: border-box;
+}
+.opening-door3:after {
+    content: ' ';
+    border: 1px solid #333;
+    background: #ffeded;
+    position: absolute;
+    top: 12px; 
+    left: 12px;
+    right: 12px;
+    bottom: 0;
+}
+.opening-door3.frame3 {
+    background: #d3d3d3;
+    width: 154px; 
+    height: 288px;
+    padding: 13px 13px 0px 13px;
+    perspective: 275px;
+    perspective-origin: 0;
+    cursor: pointer;
+}
+
+.opening-door3 .door3 {
+    width: 100%;
+    height: 100%;
+    background: #e8e8e8; /* default */
+    transition: all 0.4s ease-in-out;
+    transform-origin: center left;
+    position: relative;
+    z-index: 2;
+    font-size: 100px;
+    text-align: center;
+    font-family: Helvetica;
+    color: #d3d3d3;
+}
+.opening-door3:hover .door3 {
+    transform: rotateY(35deg);
+    transform-origin: center left;
+}
+.opening-door3 .door3:after {
+    content: ' ';
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s ease-in-out;
+}
+.opening-door3:hover .door3:after {
+    opacity: 1;
+}
+
+.opening-door3 .handle3 {
+    width: 16px;
+    height: 6px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    position: absolute;
+    background: #e8e8e8;
+    top: 50%;
+    right: 15%;
+}
+.opening-door3 .handle3:after {
+    content: ' ';
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    border: 1px solid #333;
+    background: #e8e8e8;
+    position: absolute;
+    top: -6px;
+    right: -4px;
+    transition: all 0.4s ease-in-out;
+}
+.opening-door3:hover .handle3:after {
+    width: 24px;
+    right: -15px;
+}
+
+/*/////////////////////////////////////////// Other Parts ////////////////////////////////////*/
+.alldoors {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  
+}
+.top {
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  font-family: Helvetica;
+    color: #e8e8e8
+}
+.floor {
+    display: flex;
+    width: 100vw;
+    height: 51.75vh;
+    background: #d3d3d3;
+    
+}
+
+.doorlink {
+    text-decoration: none;
+    z-index: 100;
+}
+
+/*//////////////////////////////////////////// For smaller screens //////////////////////////*/
+
+@media only screen and (max-width: 700px) {
+    
+.alldoors {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;  
+}
+    .openingdoor1,
+    .door1,
+    .frame1 {
+        margin-bottom: 30px;
+    }
+ 
+     
+    .openingdoor2 {
+        margin-bottom: 30px;
+    }
+     .door2 {
+        margin-bottom: 30px;
+    }
+     .frame2 {
+        margin-bottom: 30px;
+    }
+    .openingdoor3 {
+        margin-bottom: 30px;
+    }
+     .door3 {
+        margin-bottom: 30px;
+    }
+     .frame3 {
+        margin-bottom: 30px;
+    }
+.floor {
+    display: none;  
+}
+

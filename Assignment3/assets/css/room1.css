@@ -1,0 +1,322 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/******************* END CSS RESET ********************************/
+
+
+
+
+html,
+body,
+#stage {
+  height: 100%;
+  background: #000000;  
+}
+.curtain {
+  position: absolute;
+  background: -moz-linear-gradient(right, rgba(0, 0, 0, 0), #4d4d4d, rgba(51, 51, 51, 0.993), #4d4d4d), -moz-linear-gradient(right, rgba(51, 51, 51, 0.997), rgba(77, 77, 77, 0.999), rgba(51, 51, 51, 0.998));
+  background: -o-linear-gradient(right, rgba(0, 0, 0, 0), #4d4d4d, rgba(51, 51, 51, 0.993), #4d4d4d), -o-linear-gradient(right, rgba(51, 51, 51, 0.997), rgba(77, 77, 77, 0.999), rgba(51, 51, 51, 0.998));
+  background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0), #4d4d4d, rgba(51, 51, 51, 0.993), #4d4d4d), -webkit-linear-gradient(right, rgba(51, 51, 51, 0.997), rgba(77, 77, 77, 0.999), rgba(51, 51, 51, 0.998));
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), #4d4d4d, rgba(51, 51, 51, 0.993), #4d4d4d), linear-gradient(to left, rgba(51, 51, 51, 0.997), rgba(77, 77, 77, 0.999), rgba(51, 51, 51, 0.998));
+  background-size: 67px 67px, 53px 53px;
+  width: 60%;
+  height: 100%;
+  margin-left: -10%;
+  transition: width 2s, -webkit-transform 1s;
+    z-index: 100;
+}
+.balance {
+  position: absolute;
+  background: -moz-linear-gradient(right, rgba(0, 0, 0, 0), #4d4d4d, rgba(26, 26, 26, 0.993), #4d4d4d), -moz-linear-gradient(right, rgba(26, 26, 26, 0.997), rgba(38, 38, 38, 0.999), rgba(26, 26, 26, 0.998));
+  background: -o-linear-gradient(right, rgba(0, 0, 0, 0), #4d4d4d, rgba(26, 26, 26, 0.993), #4d4d4d), -o-linear-gradient(right, rgba(26, 26, 26, 0.997), rgba(38, 38, 38, 0.999), rgba(26, 26, 26, 0.998));
+  background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0), #4d4d4d, rgba(26, 26, 26, 0.993), #4d4d4d), -webkit-linear-gradient(right, rgba(26, 26, 26, 0.997), rgba(38, 38, 38, 0.999), rgba(26, 26, 26, 0.998));
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), #4d4d4d, rgba(26, 26, 26, 0.993), #4d4d4d), linear-gradient(to left, rgba(26, 26, 26, 0.997), rgba(38, 38, 38, 0.999), rgba(26, 26, 26, 0.998));
+  background-size: 67px 67px, 53px 53px;
+  background-size: 79px 79px, 61px 61px;
+  width: 100%;
+  height: 15%;
+  transition: height 2s 1s;
+    z-index: 100;
+}
+#curtain-right {
+  right: 0;
+  margin-right: -10%;
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -ms-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+#stage:hover #curtain-left {
+  width: 0;
+  -webkit-transform: matrix(1, 0, -0.2, 1, 0, 0);
+  -moz-transform: matrix(1, 0, -0.2, 1, 0, 0);
+  -ms-transform: matrix(1, 0, -0.2, 1, 0, 0);
+  -o-transform: matrix(1, 0, -0.2, 1, 0, 0);
+}
+#stage:hover #curtain-right {
+  width: 0;
+  -webkit-transform: matrix(-1, 0, 0.2, 1, 0, 0);
+  -moz-transform: matrix(-1, 0, 0.2, 1, 0, 0);
+  -ms-transform: matrix(-1, 0, 0.2, 1, 0, 0);
+  -o-transform: matrix(-1, 0, 0.2, 1, 0, 0);
+}
+#stage:hover .balance {
+  height: 0;
+}
+#video {
+  box-shadow: 0 0 80px #c1c1c1;
+    margin-top: 200px;
+}
+#videoplusdoors { 
+    display: flex;  
+    justify-content: space-around;
+}
+#entiretheater {
+    height: 0;
+}
+
+/******************* LEFT DOOR *************************/
+
+.opening-door2, .opening-door2 :before, .opening-door2 :after {
+    box-sizing: border-box;
+}
+.opening-door2:after {
+    content: ' ';
+    border: 1px solid #333;
+    background: #fcffed;
+    position: absolute;
+    top: 12px; 
+    left: 12px;
+    right: 12px;
+    bottom: 0;
+}
+.opening-door2.frame2 {
+    background: #d3d3d3;
+    width: 154px; 
+    height: 288px;
+    padding: 13px 13px 0px 13px;
+    perspective: 275px;
+    perspective-origin: 0;
+    cursor: pointer;
+}
+
+.opening-door2 .door2 {
+    width: 100%;
+    height: 100%;
+    background: #e8e8e8;
+    transition: all 0.4s ease-in-out;
+    transform-origin: center left;
+    position: relative;
+    z-index: 2;
+    font-size: 100px;
+    text-align: center;
+    font-family: Helvetica;
+    color: #d3d3d3;
+}
+.opening-door2:hover .door2 {
+    transform: rotateY(35deg);
+    transform-origin: center left;
+}
+.opening-door2 .door2:after {
+    content: ' ';
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s ease-in-out;
+}
+.opening-door2:hover .door2:after {
+    opacity: 1;
+}
+
+.opening-door2 .handle2 {
+    width: 16px;
+    height: 6px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    position: absolute;
+    background: #e8e8e8;
+    top: 50%;
+    right: 15%;
+}
+.opening-door2 .handle2:after {
+    content: ' ';
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    border: 1px solid #333;
+    background: #e8e8e8;
+    position: absolute;
+    top: -6px;
+    right: -4px;
+    transition: all 0.4s ease-in-out;
+}
+.opening-door2:hover .handle2:after {
+    width: 24px;
+    right: -15px;
+}
+.leftdoor {
+    display: flex;
+    align-self: flex-end;
+    margin-top: 325px;
+}
+
+
+/******************* RIGHT DOOR *************************/
+
+.opening-door3, .opening-door3 :before, .opening-door3 :after {
+    box-sizing: border-box;
+}
+.opening-door3:after {
+    content: ' ';
+    border: 1px solid #333;
+    background: #ffeded;
+    position: absolute;
+    top: 12px; 
+    left: 12px;
+    right: 12px;
+    bottom: 0;
+}
+.opening-door3.frame3 {
+    background: #d3d3d3;
+    width: 154px; 
+    height: 288px;
+    padding: 13px 13px 0px 13px;
+    perspective: 275px;
+    perspective-origin: 0;
+    cursor: pointer;
+}
+
+.opening-door3 .door3 {
+    width: 100%;
+    height: 100%;
+    background: #e8e8e8; /* default */
+    transition: all 0.4s ease-in-out;
+    transform-origin: center left;
+    position: relative;
+    z-index: 2;
+    font-size: 100px;
+    text-align: center;
+    font-family: Helvetica;
+    color: #d3d3d3;
+}
+.opening-door3:hover .door3 {
+    transform: rotateY(35deg);
+    transform-origin: center left;
+}
+.opening-door3 .door3:after {
+    content: ' ';
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.4s ease-in-out;
+}
+.opening-door3:hover .door3:after {
+    opacity: 1;
+}
+
+.opening-door3 .handle3 {
+    width: 16px;
+    height: 6px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    position: absolute;
+    background: #e8e8e8;
+    top: 50%;
+    right: 15%;
+}
+.opening-door3 .handle3:after {
+    content: ' ';
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    border: 1px solid #333;
+    background: #e8e8e8;
+    position: absolute;
+    top: -6px;
+    right: -4px;
+    transition: all 0.4s ease-in-out;
+}
+.opening-door3:hover .handle3:after {
+    width: 24px;
+    right: -15px;
+}
+
+.rightdoor {
+    display: flex;
+    align-self: flex-end;
+    margin-top: 325px;
+}
+
+.doorlink {
+    text-decoration: none;
+}
+
+.button {
+    background-color: #e8e8e8;
+    border: none;
+    color: #d3d3d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Helvetica;
+    cursor: pointer;
+}
+.buttonarea {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
