@@ -1,0 +1,16 @@
+.name {
+    font-family: Helvetica;
+    font-size: 250px;
+}
+.class {
+    font-family: Helvetica;
+    font-size: 40px;
+    color: red;
+}
+.links {
+    font-family: Helvetica;
+    font-size: 40px;
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
